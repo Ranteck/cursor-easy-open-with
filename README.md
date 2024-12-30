@@ -1,0 +1,1 @@
+# cursor-easy-open-with
