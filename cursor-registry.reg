@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; Agregar opción "Open with Cursor" para carpetas
+[HKEY_CLASSES_ROOT\Directory\shell\OpenWithCursor]
+@="Open with Cursor"
+"Icon"="C:\\Users\\%USERNAME%\\AppData\\Local\\Programs\\cursor\\Cursor.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenWithCursor\command]
+@="\"C:\\Users\\%USERNAME%\\AppData\\Local\\Programs\\cursor\\Cursor.exe\" \"%V\""
